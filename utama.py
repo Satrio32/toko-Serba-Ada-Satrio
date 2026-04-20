@@ -8,8 +8,8 @@ st.set_page_config(page_title="toko satrio", layout="wide")
 
 
 # 1. Tampilkan Banner Canva
-if os.path.exists("toko satrio.png"):
-    st.image("toko satrio.png", use_container_width=True)
+if os.path.exists("toko satrio.jpeg"):
+    st.image("toko satrio.jpeg", use_container_width=True)
 
 
 st.title("🌸 toko Serba Ada Mas Satrio")
@@ -70,12 +70,12 @@ with col_info1:
 
 with col_info2:
     # Ganti nomor HP di bawah ini dengan nomor Anda (gunakan format 62)
-    no_hp = "6281234567890" 
-    pesan_wa = "Halo, saya tertarik memesan anggrek di katalog Anda."
+    no_hp = "6282146215936" 
+    pesan_wa = "Halo, saya tertarik memesan sembako di katalog Anda."
     link_wa = f"https://wa.me/{no_hp}?text={pesan_wa.replace(' ', '%20')}"
     
     st.markdown(f"**WhatsApp:**")
     st.link_button("📱 Pesan Sekarang via WhatsApp", link_wa)
 
 
-st.caption("© 2026 Toko Serba Ada - Semua Hak Dilindungi")
+st.caption("© 2026 Toko Serba Ada | Satrio32 - Semua Hak Dilindungi")
