@@ -8,8 +8,8 @@ st.set_page_config(page_title="toko satrio", layout="wide")
 
 
 # 1. Tampilkan Banner Canva
-if os.path.exists("toko satrio.jpeg"):
-    st.image("toko satrio.jpeg", use_container_width=True)
+if os.path.exists("toko stario.png"):
+    st.image("toko stario.png", use_container_width=True)
 
 
 st.title("🌸 toko Serba Ada Mas Satrio")
