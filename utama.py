@@ -12,7 +12,7 @@ if os.path.exists("toko stario.png"):
     st.image("toko stario.png", use_container_width=True)
 
 
-st.title("🌸 toko Serba Ada Mas Satrio")
+st.title(" toko Serba Ada Mas Satrio")
 st.divider()
 
 
